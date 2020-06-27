@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[************************ Test Base Class Execution - SUCCESS ************************]]>
+    </line>
+    <line>
+      <![CDATA[************************ Home Page Test Class Execution - STARTS ************************]]>
+    </line>
+    <line>
+      <![CDATA[HomePage Validation SUCCESS...!!]]>
+    </line>
+    <line>
+      <![CDATA[Invalid Logon Validation - SUCCESS]]>
+    </line>
+    <line>
+      <![CDATA[************************ Home Page Test Class Execution - ENDS ************************]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="32956" started-at="2020-06-27T21:12:07 IST" finished-at="2020-06-27T21:12:40 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="32956" started-at="2020-06-27T21:12:07 IST" finished-at="2020-06-27T21:12:40 IST">
+      <class name="com.wellsfargo.tests.HomePageTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.wellsfargo.tests.HomePageTest@53045c6c]" name="beforeClass" is-config="true" duration-ms="10" started-at="2020-06-27T21:12:07 IST" finished-at="2020-06-27T21:12:07 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[************************ Home Page Test Class Execution - STARTS ************************]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="openURL()[pri:0, instance:com.wellsfargo.tests.HomePageTest@53045c6c]" name="openURL" duration-ms="18323" started-at="2020-06-27T21:12:07 IST" finished-at="2020-06-27T21:12:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openURL -->
+        <test-method status="PASS" signature="validateHomePage()[pri:1, instance:com.wellsfargo.tests.HomePageTest@53045c6c]" name="validateHomePage" duration-ms="45" started-at="2020-06-27T21:12:25 IST" finished-at="2020-06-27T21:12:25 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[HomePage Validation SUCCESS...!!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateHomePage -->
+        <test-method status="PASS" signature="verifyLogin()[pri:2, instance:com.wellsfargo.tests.HomePageTest@53045c6c]" name="verifyLogin" duration-ms="13596" started-at="2020-06-27T21:12:25 IST" finished-at="2020-06-27T21:12:39 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Invalid Logon Validation - SUCCESS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.wellsfargo.tests.HomePageTest@53045c6c]" name="afterClass" is-config="true" duration-ms="927" started-at="2020-06-27T21:12:39 IST" finished-at="2020-06-27T21:12:40 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[************************ Home Page Test Class Execution - ENDS ************************]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.wellsfargo.tests.HomePageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
